@@ -1,29 +1,19 @@
 .home-container {
   width: 100%;
   display: flex;
-  overflow: auto;
   flex-wrap: wrap;
-  min-height: 3500px;
+  min-height: 100vh; /* Set a minimum height to fill the viewport */
   align-items: center;
-  border-color: #000918;
-  border-width: 1px;
-  border-radius: Radius20;
-  flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   background-color: #000918;
 }
 .home-text {
-  top: 280px;
-  flex: auto;
-  left: 400px;
   color: rgb(255, 255, 255);
-  height: auto;
-  position: absolute;
-  font-size: 5em;
-  align-self: center;
+  font-size: 3em; /* Adjust font size as needed */
   font-family: Oxygen;
-  align-content: center;
+  text-align: center;
 }
+
 .home-text01 {
   top: 412px;
   left: 400px;
@@ -541,46 +531,24 @@
   text-decoration: none;
   background-color: rgba(125, 23, 125, 0.74);
 }
-@media (max-width: 767px) {
-  .home-navbar-interactive {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .home-burger-menu {
-    align-items: center;
-    justify-content: center;
-  }
-  .home-text13 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .home-text14 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .home-text15 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .home-text16 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .home-text17 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
+@media (max-width: 768px) {
+  .home-text {
+    font-size: 2em; /* Adjust font size for smaller screens */
   }
 }
-@media (max-width: 479px) {
-  .home-navbar-interactive {
-    padding: var(--dl-space-space-unit);
+
+/* Responsive adjustments for even smaller screens (smartphones) */
+@media (max-width: 480px) {
+  .home-text {
+    font-size: 1.5em; /* Further adjust font size for smartphones */
   }
-  .home-desktop-menu {
-    display: none;
+  .home-container {
+    min-height: 100vh; /* Increase minimum height for smaller screens */
   }
-  .home-burger-menu {
-    display: flex;
-  }
-  .home-mobile-menu {
-    padding: 16px;
+  /* Adjust positioning for smaller screens */
+  .home-text01,
+  .home-text02,
+  .home-text12 {
+    margin-top: 10px;
   }
 }
