@@ -1,0 +1,83 @@
+.home2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000918;
+    color: rgb(255, 255, 255);
+    font-family: Oxygen;
+}
+
+.container {
+    padding: 15px;
+    margin: 15px;
+    width: 1000px;
+}
+
+.engineer {
+    color: rgb(125, 23, 125);
+    font-size: 40px;
+    font-style: normal;
+    font-family: Oxygen;
+    font-weight: 400;
+}
+
+.engineer2 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-style: normal;
+    transition: 0.3s;
+    font-weight: 300;
+}
+
+.horea-danci {
+    color: rgb(255, 255, 255);
+    font-size: 3em; /* Adjust font size as needed */
+    font-family: Oxygen;
+}
+
+.container-experience-parent {
+    display: flex;
+    justify-content: space-between;
+}
+.container-experience {
+    width: 300px;
+    height: 250px;
+    background-color: rgba(125, 23, 125, 0.55);
+}
+
+.poza-horea {
+    width: 262px;
+    height: 270px;
+    opacity: 0.8;
+    object-fit: cover;
+    border-color: #7d177d;
+    border-width: 8px;
+}
+
+.container-in-about {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagini {
+    width: 120px;
+    height: 120px;
+    opacity: 0.5;
+}
+
+.tia {
+    margin-left: 50px;
+}
+
+.container-imagini1 {
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bachelors {
+    display: flex;
+}
