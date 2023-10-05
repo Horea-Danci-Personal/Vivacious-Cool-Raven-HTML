@@ -46,6 +46,7 @@
     width: 300px;
     height: 250px;
     background-color: rgba(125, 23, 125, 0.55);
+    padding: 10px;
 }
 
 .poza-horea {
@@ -80,4 +81,8 @@
 
 .bachelors {
     display: flex;
+}
+
+.title {
+    margin-bottom: 25px;
 }

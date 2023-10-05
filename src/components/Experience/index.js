@@ -3,10 +3,10 @@ import React from "react";
 export const Experience = () => {
   return (
     <div className="container experience">
-      <h1>Experience</h1>
+      <h1 className="title">Experience</h1>
       <div className="container-experience-parent">
         <div className="container-experience">
-          <h2>Test Engineer</h2>
+          <h2 style={{ marginBottom: 10 }}>Test Engineer</h2>
           <div>
             During my internship at Bosch in the Parking Systems department, I
             learned crucial technologies such as CANoe, CANape, Jira, and IBM
@@ -15,7 +15,7 @@ export const Experience = () => {
           </div>
         </div>
         <div className="container-experience">
-          <h2>Website Manager</h2>
+          <h2 style={{ marginBottom: 10 }}>Website Manager</h2>
           <div>
             During my tenure as a website manager at Bervas, my responsibilities
             revolved around bringing ideas for enhancing the website's design
@@ -25,7 +25,7 @@ export const Experience = () => {
           </div>
         </div>
         <div className="container-experience">
-          <h2>Media Specialist</h2>
+          <h2 style={{ marginBottom: 10 }}>Media Specialist</h2>
           <div>
             At KingPing Performance Sighetu Marmatiei, my role consisted of
             responsibilities such as content creation, client relations,
