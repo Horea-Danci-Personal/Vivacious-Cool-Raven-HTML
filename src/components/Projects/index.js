@@ -37,7 +37,7 @@ export const Projects = () => {
           Presentation website: This website, that you are currently browsing
         </h2>
         <div className="bachelors">
-          <span style={{ width: 400, margin: 60 }}>
+          <span style={{ width: 400, margin: 60, marginLeft: 0 }}>
             This project was done to give an edge when it comes to applying for
             a possible career opportunity over the conventional resume, and
             ultimately to give a better first impression. This website was
