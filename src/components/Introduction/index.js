@@ -9,7 +9,14 @@ export const Introduction = () => {
         Engineering graduate with experience in Automotive Testing, Web
         Development, Industrial Engineering and much more.
       </div>
-      <button>Download Resume</button>
+      <a
+        href={require("../../cv/CV-Danci-Horea.pdf")}
+        download="HoreaDanciResume"
+        className="home-link-cv button buttonCV"
+        style={{ marginTop: 15, padding: 17 }}
+      >
+        Download Resume
+      </a>
     </div>
   );
 };
