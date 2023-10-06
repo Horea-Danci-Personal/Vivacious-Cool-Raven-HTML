@@ -49,7 +49,7 @@
   width: 300px;
   height: 250px;
   background-color: rgba(125, 23, 125, 0.55);
-  padding-top: 20px;
+  padding: 20px;
 }
 
 .poza-horea {
@@ -86,7 +86,7 @@
   display: flex;
 }
 
-.titleh {
+.title {
   margin-bottom: 25px;
   font-size: 3em;
   padding-top: 50px;
