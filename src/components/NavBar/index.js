@@ -19,6 +19,9 @@ export const NavBar = () => {
         <a href="#Contact" className="home-link4">
           Contact
         </a>
+        <a href="#HomePage" className="home-link5 button">
+          TOP
+        </a>
       </nav>
     </div>
   );
