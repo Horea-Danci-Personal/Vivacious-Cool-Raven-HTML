@@ -10,7 +10,9 @@ import html5 from "../../images/html.png";
 export const Projects = () => {
   return (
     <div className="container projects">
-      <h1 className="title">Projects</h1>
+      <h1 id="Projects" className="title">
+        Projects
+      </h1>
       <div>
         <h2 style={{ marginBottom: 15 }}>
           Bachelor's degree: "Demonstrator for domotics"
