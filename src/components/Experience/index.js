@@ -20,7 +20,7 @@ export const Experience = () => {
           </div>
         </div>
         <div className="container-experience">
-          <h2 style={{ marginLeft: 35, marginBottom: 10 }}>Website Manager</h2>
+          <h2 style={{ marginLeft: 20, marginBottom: 10 }}>Website Manager</h2>
           <div>
             During my tenure as a website manager at Bervas, my responsibilities
             revolved around bringing ideas for enhancing the website's design
@@ -30,7 +30,7 @@ export const Experience = () => {
           </div>
         </div>
         <div className="container-experience">
-          <h2 style={{ marginLeft: 40, marginBottom: 10 }}>Media Specialist</h2>
+          <h2 style={{ marginLeft: 25, marginBottom: 10 }}>Media Specialist</h2>
           <div>
             At KingPing Performance S.M., my role consisted of content creation,
             client relations, marketing and communication. This was an important
