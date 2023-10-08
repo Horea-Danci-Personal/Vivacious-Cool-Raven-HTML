@@ -10,21 +10,36 @@ import html5 from "../../images/html.png";
 export const Projects = () => {
   return (
     <div className="container projects">
-      <h1 id="Projects" className="title">
+      <h1
+        id="Projects"
+        className="title"
+      >
         Projects
       </h1>
       <div>
-        <h2 style={{ marginBottom: 15 }}>
+        <h2 style={{ marginTop: 80, marginBottom: 15 }}>
           Bachelor's degree: "Demonstrator for domotics"
         </h2>
         <div className="bachelors">
           <div className="container-imagini1">
-            <img src={node} alt="poza" className="imagini" />
-            <img src={imb} alt="poza" className="imagini" />
-            <img src={tia} alt="poza" className="imagini tia" />
+            <img
+              src={node}
+              alt="poza"
+              className="imagini"
+            />
+            <img
+              src={imb}
+              alt="poza"
+              className="imagini"
+            />
+            <img
+              src={tia}
+              alt="poza"
+              className="imagini tia"
+            />
           </div>
 
-          <span style={{ width: 400, margin: 40 }}>
+          <span style={{ marginTop: 0, width: 580, margin: 40 }}>
             This project consisted of a web application used to mimic the remote
             monitoring and controlling of an industrial process. The main
             technologies used were NodeRED, IBM Cloud, TIA. The web application
@@ -35,11 +50,11 @@ export const Projects = () => {
         </div>
       </div>
       <div>
-        <h2 style={{ marginBottom: 15, marginTop: 20 }}>
+        <h2 style={{ marginBottom: 15, marginTop: 50 }}>
           Presentation website: This website, that you are currently browsing
         </h2>
         <div className="bachelors">
-          <span style={{ width: 400, margin: 60, marginLeft: 0 }}>
+          <span style={{ width: 560, margin: 60, marginLeft: 0 }}>
             This project was done to give an edge when it comes to applying for
             a possible career opportunity over the conventional resume, and
             ultimately to give a better first impression. This website was
@@ -47,9 +62,21 @@ export const Projects = () => {
             Microsoft Azure services.
           </span>
           <div className="container-imagini1">
-            <img src={azure} alt="poza" className="imagini" />
-            <img src={csss} alt="poza" className="imagini" />
-            <img src={html5} alt="poza" className="imagini tia" />
+            <img
+              src={azure}
+              alt="poza"
+              className="imagini"
+            />
+            <img
+              src={csss}
+              alt="poza"
+              className="imagini"
+            />
+            <img
+              src={html5}
+              alt="poza"
+              className="imagini tia"
+            />
           </div>
         </div>
       </div>

@@ -4,11 +4,18 @@ import logoUTCN from "../../images/logo-utcn.png";
 export const Education = () => {
   return (
     <div className="container education">
-      <h1 id="Education" className="title">
+      <h1
+        id="Education"
+        className="title"
+      >
         Education
       </h1>
       <div className="container-in-about">
-        <img src={logoUTCN} alt="poza" className="poza-horea" />
+        <img
+          src={logoUTCN}
+          alt="poza"
+          className="poza-horea"
+        />
         <div style={{ margin: 75 }}>
           <ul>
             <li style={{ fontSize: 30 }}>

@@ -11,8 +11,8 @@
 }
 
 .container {
-  padding: 30px;
-  margin: 30px;
+  padding: 20px;
+  margin: 60px;
   width: 1000px;
 }
 
@@ -31,6 +31,8 @@
   font-style: normal;
   transition: 0.3s;
   font-weight: 300;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .horea-danci {
@@ -38,7 +40,7 @@
   font-size: 5em; /* Adjust font size as needed */
   font-family: Oxygen;
   padding-bottom: 30px;
-  padding-top: 80px;
+  padding-top: 170px;
 }
 
 .container-experience-parent {
@@ -50,6 +52,7 @@
   height: 280px;
   background-color: rgba(125, 23, 125, 0.55);
   padding: 20px;
+  font-size: 18px;
 }
 
 .poza-horea {
@@ -64,6 +67,7 @@
 .container-in-about {
   display: flex;
   flex-direction: row;
+  padding-top: 50px;
 }
 
 .imagini {
@@ -80,16 +84,19 @@
   width: 250px;
   display: flex;
   flex-wrap: wrap;
+  font-size: 25px;
 }
 
 .bachelors {
   display: flex;
+  font-size: 23px;
 }
 
 .title {
   margin-bottom: 25px;
   font-size: 3em;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .buttonCV {
