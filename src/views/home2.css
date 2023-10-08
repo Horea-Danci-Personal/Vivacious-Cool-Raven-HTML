@@ -11,6 +11,8 @@
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   padding: 20px;
   margin: 60px;
   width: 1000px;
@@ -45,6 +47,7 @@
 
 .container-experience-parent {
   display: flex;
+
   justify-content: space-between;
 }
 .container-experience {
@@ -114,4 +117,119 @@
 
 .buttonCV:hover {
   background-color: #7d177d;
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    padding: 10px;
+    margin: 10px;
+    width: 700px;
+  }
+  .buttonCV {
+    font-family: Oxygen;
+    font-weight: 700;
+    text-transform: capitalize;
+    display: flex;
+  }
+  .title {
+    margin-bottom: 15px;
+    font-size: 2.5em;
+    padding-top: 0px;
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+  .container-experience {
+    width: 200px;
+    height: 280px;
+
+    background-color: rgba(125, 23, 125, 0.55);
+    padding: 10px;
+    font-size: 15px;
+  }
+  .container-imagini1 {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    font-size: 5px;
+  }
+  .container-in-about {
+    display: flex;
+    flex-direction: row;
+  }
+  .tia {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .home2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #000918;
+    color: rgb(255, 255, 255);
+    font-family: Oxygen;
+  }
+  .container {
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+  }
+  .buttonCV {
+    font-family: Oxygen;
+    font-weight: 700;
+    text-transform: capitalize;
+    display: flex;
+    align-self: center;
+  }
+  .title {
+    display: flex;
+    align-self: center;
+    margin-bottom: 15px;
+    font-size: 2em;
+
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+  .container-experience {
+    display: flex;
+    flex-direction: column;
+
+    width: 122px;
+    height: auto;
+    background-color: rgba(125, 23, 125, 0.55);
+    padding: 5px;
+    font-size: 10px;
+  }
+  .container-imagini1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1px;
+    align-self: center;
+  }
+  .container-in-about {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-top: 10px;
+  }
+  .tia {
+    margin-left: 0px;
+  }
+  .container-experience-parent {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+  .bachelors {
+    display: flex;
+    flex-direction: wrap;
+    font-size: 15px;
+    width: auto;
+  }
+  .imagini {
+    width: 40px;
+    height: 40px;
+    opacity: 0.5;
+    margin-left: 30px;
+  }
 }
