@@ -2,7 +2,7 @@ import React from "react";
 
 export const Introduction = () => {
   return (
-    <div style={{ height: 700 }} className="container introduction">
+    <div className="container introduction">
       <div className="horea-danci">Danci Horea</div>
       <div className="engineer">ENGINEER</div>
       <div className="engineer2">
