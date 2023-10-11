@@ -186,15 +186,16 @@
   .container-experience {
     display: flex;
     flex-direction: column;
-    margin-top: 15px;
+    margin-top: 25px;
     height: auto;
-    width: 122px;
+    width: 210px;
     background-color: rgba(125, 23, 125, 0.55);
-    padding: 5px;
-    font-size: 10px;
+
+    font-size: 15px;
   }
   .container-experience > h2 {
     margin-left: 20px !important;
+    font-size: 20px;
   }
 
   .container-imagini1 {
@@ -213,7 +214,7 @@
 
   .container-in-about ul li {
     font-size: 20px !important;
-    margin-bottom: 10px
+    margin-bottom: 10px;
   }
 
   .container-in-about > div > span {
