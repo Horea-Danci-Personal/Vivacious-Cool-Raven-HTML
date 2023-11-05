@@ -5,9 +5,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #000918;
+  background-color: #00091800;
   color: rgb(255, 255, 255);
   font-family: Oxygen;
+}
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, #000918 00%, rgb(2, 88, 125) 200%);
+  z-index: -1;
 }
 
 .container {
@@ -53,7 +62,7 @@
 .container-experience {
   width: 300px;
   height: 280px;
-  background-color: rgba(125, 23, 125, 0.55);
+  background-color: rgba(125, 23, 125, 0.822);
   padding: 20px;
   font-size: 18px;
 }
@@ -61,7 +70,7 @@
 .poza-horea {
   width: 262px;
   height: 270px;
-  opacity: 0.8;
+
   object-fit: cover;
   border-color: #7d177d;
   border-width: 8px;
@@ -76,7 +85,6 @@
 .imagini {
   width: 120px;
   height: 120px;
-  opacity: 0.5;
 }
 
 .tia {
@@ -112,11 +120,11 @@
 
 .home-link-cv {
   text-decoration: none;
-  background-color: rgba(125, 23, 125, 0.74);
+  background-color: rgb(125, 23, 125);
 }
 
 .buttonCV:hover {
-  background-color: #7d177d;
+  background-color: #7d177dc4;
 }
 
 @media screen and (max-width: 1000px) {
@@ -163,7 +171,7 @@
     flex-direction: column;
     align-items: center;
 
-    background-color: #000918;
+    background-color: #00091800;
     color: rgb(255, 255, 255);
     font-family: Oxygen;
   }
