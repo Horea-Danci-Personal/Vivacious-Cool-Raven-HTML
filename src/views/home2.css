@@ -147,7 +147,7 @@
     width: 200px;
     height: 280px;
 
-    background-color: rgba(125, 23, 125, 0.55);
+    background-color: rgba(125, 23, 125, 0.801);
     padding: 10px;
     font-size: 15px;
   }
@@ -197,7 +197,7 @@
     margin-top: 25px;
     height: auto;
     width: 210px;
-    background-color: rgba(125, 23, 125, 0.55);
+    background-color: rgba(125, 23, 125, 0.808);
 
     font-size: 15px;
   }
@@ -258,7 +258,7 @@
   .imagini {
     width: 40px;
     height: 40px;
-    opacity: 0.5;
+
     margin-left: 30px;
   }
 }
