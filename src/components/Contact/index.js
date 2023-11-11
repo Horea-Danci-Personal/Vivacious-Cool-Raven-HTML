@@ -19,8 +19,8 @@ export const Contact = () => {
           </a>
         </li>
         <li style={{ marginBottom: 10 }}>
-          <a href="https://www.linkedin.com/in/danci-horea-488527239/">
-            https://www.linkedin.com/in/danci-horea-488527239/
+          <a href="https://www.linkedin.com/in/horea-danci-488527239/">
+            LinkedIn
           </a>
         </li>
       </ul>
